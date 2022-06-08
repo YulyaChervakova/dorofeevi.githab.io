@@ -55,14 +55,18 @@ input {
     transition: transform .2s;
     
 }
-input:hover {
-    transform: scale(1.5); 
-}
+
+
 input:active {
     background-color: rgb(233, 200, 255); 
 }
 #block {
 display: none;
+}
+@media screen and (min-width: 800px) {
+    input:hover {
+        transform: scale(1.5); 
+    }
 }
 @media (max-width: 920px) {
     .imeg_one {
@@ -154,6 +158,33 @@ display: none;
      p{
          margin: 0 30px 0 30px;
          font-size: 1.3em;
+         word-break:break-all;
+     }
+}
+
+@media (max-width: 320px) {
+    .zagolovok {
+        margin: 35px 0 0 0;
+        }
+    div {
+        margin-bottom:30px;
+    }
+    .imeg_one {
+        height: 250px;
+        width: 250px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-left: 15px;
+    }
+    h1 {
+        font-size: 1.5em;
+     }
+     h2{
+        font-size: 1.2em;
+     }
+     p{
+         margin: 0 30px 0 30px;
+         font-size: 1em;
          word-break:break-all;
      }
 }
