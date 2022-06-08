@@ -5,8 +5,10 @@ function openBlock() {
     // block.classList.add("active");
     if (block.style.display != "flex") {
         block.style.display = "flex"; //Показываем элемент
+        block.focus();
       } else block.style.display = "none"; //Скрываем элемент
-    }
+      
+}
     // block.setAttribute('class',"block active");
     // block.removeAttribute("none");
 

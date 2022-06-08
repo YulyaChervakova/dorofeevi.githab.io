@@ -3,6 +3,7 @@
     color:rgb(68, 61, 165);
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 body {
     background-color: rgb(251, 249, 255);
@@ -47,10 +48,10 @@ input {
     background-color: rgb(213, 211, 235);
     border: 2px solid;
     border-color: rgb(92, 34, 146);
-    width: 100px;
-    height: 40px;
+    width: 200px;
+    height: 70px;
     font-size: 1.5em;
-    border-radius: 14px;
+    border-radius: 25px;
     margin-bottom: 40px;
     transition: transform .2s;
     
@@ -187,6 +188,38 @@ display: none;
          font-size: 1em;
          word-break:break-all;
      }
+}
+@media (max-width: 270px) {
+    .zagolovok {
+        margin: 25px 0 0 0;
+        }
+    div {
+        margin-bottom:25px;
+    }
+    .imeg_one {
+        height: 200px;
+        width: 200px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-left: 10px;
+    }
+    h1 {
+        font-size: 1.1em;
+     }
+     h2{
+        font-size: 1em;
+     }
+     p{
+         margin: 0 30px 0 30px;
+         font-size: 0.8em;
+         word-break:break-all;
+     }
+     input {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 1em;
+    }
 }
 @font-face {
     font-family: 'Marck Script' ;
