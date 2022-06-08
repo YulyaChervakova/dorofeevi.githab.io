@@ -61,7 +61,7 @@ input:hover {
 input:active {
     background-color: rgb(233, 200, 255); 
 }
-.block {
+#block {
 display: none;
 }
 @media (max-width: 920px) {
