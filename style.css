@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 .zagolovok {
-margin:80px 0 30px 0;
+margin:80px 0 20px 0;
 }
 
  div {
@@ -29,6 +29,9 @@ margin:80px 0 30px 0;
     font-size: 4em;
     font-weight:normal;
  }
+.name {
+    font-size: 4em;
+}
  h2{
     font-size: 2em;
  }
@@ -47,8 +50,9 @@ a{
     text-decoration:none;
 }
 
-a:focus{
+a::hover{
         color: rgb(255, 255, 255);
+        text-decoration: underline;
 }
 #info {
     margin-bottom: 0;
