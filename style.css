@@ -37,6 +37,7 @@ margin:80px 0 20px 0;
  }
  p{
      font-size: 2em;
+     
  }
 .imeg_one {
     height: 800px;
@@ -107,7 +108,7 @@ display: none;
      p{
          margin: 0 30px 0 30px;
          font-size: 2em;
-         word-break:word-break;
+         word-break:break-word;
      }
 }
 
