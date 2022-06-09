@@ -51,8 +51,8 @@ a{
 }
 
 a:hover{
-        color: rgb(255, 255, 255);
-        text-decoration: underline;
+    border-bottom: 2px dashed rgb(92, 34, 146);
+    /* padding-bottom: 3px; */
 }
 #info {
     margin-bottom: 0;
