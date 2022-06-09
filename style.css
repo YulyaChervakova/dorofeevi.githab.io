@@ -50,7 +50,7 @@ a{
     text-decoration:none;
 }
 
-a::hover{
+a:hover{
         color: rgb(255, 255, 255);
         text-decoration: underline;
 }
@@ -91,9 +91,16 @@ display: none;
         background-repeat: no-repeat;
         padding-left: 30px;
     }
+    a{
+        border-bottom: 2px dashed rgb(92, 34, 146);
+        padding-bottom: 3px;
+      }
     h1 {
         font-size: 3em;
      }
+    .name {
+        font-size: 3em;
+    }
      h2{
         font-size: 2em;
      }
@@ -118,6 +125,9 @@ display: none;
     h1 {
         font-size: 2.7em;
      }
+     .name {
+        font-size: 2.7em;
+    }
      h2{
         font-size: 1.7em;
      }
@@ -144,6 +154,9 @@ display: none;
     h1 {
         font-size: 2.2em;
      }
+     .name {
+        font-size: 2.2em;
+    }
      h2{
         font-size: 1.7em;
      }
@@ -173,6 +186,9 @@ display: none;
     h1 {
         font-size: 1.8em;
      }
+     .name {
+        font-size: 1.8em;
+    }
      h2{
         font-size: 1.5em;
      }
@@ -203,6 +219,9 @@ display: none;
     h1 {
         font-size: 1.5em;
      }
+     .name {
+        font-size: 1.5em;
+    }
     h2{
         font-size: 1.2em;
      }
@@ -232,6 +251,9 @@ display: none;
     h1 {
         font-size: 1.1em;
      }
+     .name {
+        font-size: 1.1em;
+    }
      h2{
         font-size: 1em;
      }
