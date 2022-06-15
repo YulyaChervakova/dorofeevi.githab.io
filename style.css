@@ -36,8 +36,10 @@ margin:50px 0 0 0;
     font-size: 2em;
  }
  p{
-     font-size: 2em;
-     
+     font-size: 2em; 
+ }
+ .gest p {
+    font-size: 1.7em;
  }
 .imeg_one {
     height: 800px;
